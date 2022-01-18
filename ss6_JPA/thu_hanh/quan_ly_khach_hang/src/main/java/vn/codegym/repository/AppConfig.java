@@ -28,7 +28,7 @@ import java.util.Properties;
 @Configuration
 @EnableWebMvc
 @EnableTransactionManagement
-@ComponentScan("vn.codegym.controller")
+@ComponentScan("vn.codegym")
 
 public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
     private ApplicationContext applicationContext;
@@ -88,9 +88,9 @@ public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/cms");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/quanlykhachhang");
         dataSource.setUsername("root");
-        dataSource.setPassword("123456");
+        dataSource.setPassword("01021996");
         return dataSource;
     }
 

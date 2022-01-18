@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29dc8626-4aba-4d82-812b-d4c06cb2ba90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.idea/JPA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5_database_ORM/thu_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5_database_ORM/thu_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/config/AppConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/config/AppConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/config/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/config/AppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/repository/IStudentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/repository/IStudentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/repository/StudentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/repository/StudentRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/service/IStudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/service/IStudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/service/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/classes/java/main/vn/codegym/service/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/libs/JPA-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/build/libs/JPA-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/src/main/java/vn/codegym/config/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/DemoJPA/JPA/src/main/java/vn/codegym/config/AppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/DemoJPA/JPA/src/main/webapp/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="23rPorrM5sqs6BT6pJjXxOVu7Ji" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29dc8626-4aba-4d82-812b-d4c06cb2ba90" name="Default Changelist" comment="" />
+      <created>1642489410112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642489410112</updated>
+      <workItem from="1642489411246" duration="65000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1642489441015">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1642489441015" />
+    <state x="91" y="6" key="new project wizard" timestamp="1642489457662">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="91" y="6" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1642489457662" />
+  </component>
+</project>
