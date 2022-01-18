@@ -11,7 +11,7 @@ public interface IProductService {
 
     Product getById(int id);
 
-    void edit(int id);
+    void edit(int id , Product product);
 
     void remote(int id);
 

@@ -17,11 +17,13 @@ public interface IProductRepository {
 
     Product getById(int id);
 
-    void edit(int id);
+    void edit(int id, Product product);
 
     void remote(int id);
 
     List<Product> search(String name);
+
+
 
 
 

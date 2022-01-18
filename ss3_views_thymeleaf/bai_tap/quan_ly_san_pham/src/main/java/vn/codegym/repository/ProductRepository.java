@@ -37,26 +37,37 @@ public class ProductRepository implements IProductRepository{
 
     @Override
     public void add(Product product) {
+        productMap.put(product.getId(),product);
 
     }
 
     @Override
     public Product getById(int id) {
-        return null;
+        return productMap.get(id);
     }
 
     @Override
-    public void edit(int id) {
-
+    public void edit(int id,Product product) {
+        productMap.put(id,product);
     }
 
     @Override
     public void remote(int id) {
-
+        productMap.remove(id);
     }
 
     @Override
     public List<Product> search(String name) {
-        return null;
+        List<Product> list = new ArrayList<>();
+        for (Product p: productMap.values()) {
+            if(p.getName().toLowerCase().contains(name.toLowerCase())){
+                list.add(p);
+            }
+        }
+        return list;
     }
+
+
+
+
 }

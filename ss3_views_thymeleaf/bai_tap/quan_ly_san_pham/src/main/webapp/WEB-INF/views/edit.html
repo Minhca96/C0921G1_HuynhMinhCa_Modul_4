@@ -4,12 +4,12 @@
 <body>
 <h3>Edit Customer</h3>
 <p>
-    <a th:href="@{/customer}">
+    <a th:href="@{/product}">
         Back to customer list
     </a>
 </p>
 <div id="form">
-    <form action="#" th:action="@{/customer/update}" th:object="${customer}"
+    <form action="#" th:action="@{/product/update}" th:object="${product}"
           method="POST" novalidate="novalidate">
         <input type="hidden" th:field="*{id}"/>
         <div>
@@ -18,14 +18,31 @@
         </div>
         <div>
             <label>Email</label>
-            <input type="email" th:field="*{email}"/>
+            <input type="email" th:field="*{price}"/>
         </div>
         <div>
             <label>Address</label>
-            <input type="text" th:field="*{address}"/>
+            <input type="text" th:field="*{detail}"/>
         </div>
+        <div>
+            <label>Producer</label>
+            <input type="text" th:field="*{producer}"/>
+        </div>
+
         <input type="submit" value="Edit"/>
     </form>
+<!--    <form action="#" th:object="${product}" th:action="@{/product/update}" method="post">-->
+<!--        <input type="hidden" th:field="*{id}">-->
+<!--        <label >Name</label>-->
+<!--        <input type="text" th:field="*{name}">-->
+<!--        <label >Price</label>-->
+<!--        <input type="text" th:field="*{price}">-->
+<!--        <label >Detail</label>-->
+<!--        <input type="text" th:field="*{detail}">-->
+<!--        <label >Producer</label>-->
+<!--        <input type="text" th:field="*{producer}">-->
+<!--        <button type="submit">update</button>-->
+<!--    </form>-->
 </div>
 <footer th:replace="/view :: footer"></footer>
 </body>
