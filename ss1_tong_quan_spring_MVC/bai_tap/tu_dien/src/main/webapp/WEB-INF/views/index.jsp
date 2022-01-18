@@ -14,7 +14,7 @@
 </head>
 <body>
 <h2>Vietnamese Dictionary</h2>
-<form method="post">
+<form action="/greeting1" method="post">
     <input type="text" name="keyword" placeholder="moi nhap "/>
     <input type = "submit" id = "submit" value = "submit"/>
 

@@ -9,10 +9,20 @@ import org.springframework.web.servlet.ModelAndView;
 import vn.codegym.model.Customer;
 import vn.codegym.service.ICustomerService;
 
+import java.util.List;
+
 @Controller
 public class CustomerController {
     @Autowired
     private ICustomerService customerService;
+
+    @GetMapping("/customers")
+    public ModelAndView listCustomers() {
+        List<Customer> customers = customerService.findAll();
+        ModelAndView modelAndView = new ModelAndView("/customer/list");
+        modelAndView.addObject("customers", customers);
+        return modelAndView;
+    }
 
     @GetMapping("/create-customer")
     public ModelAndView showCreateForm() {

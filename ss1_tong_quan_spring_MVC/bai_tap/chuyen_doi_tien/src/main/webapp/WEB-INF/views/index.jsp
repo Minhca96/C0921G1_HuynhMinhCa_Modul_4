@@ -14,7 +14,7 @@
 </head>
 <body>
 <h2>Vietnamese Dictionary</h2>
-<form method="post">
+<form action="/convert" method="post">
     <input type="number" name="number" placeholder="moi nhap so tien can doi"/>USD
     <input type = "submit" id = "submit" value = "submit"/>
 
