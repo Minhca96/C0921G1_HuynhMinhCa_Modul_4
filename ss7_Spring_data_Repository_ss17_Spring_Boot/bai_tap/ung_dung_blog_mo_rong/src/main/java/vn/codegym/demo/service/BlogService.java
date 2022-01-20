@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 import vn.codegym.demo.model.Blog;
 import vn.codegym.demo.repository.IBlogRepository;
 
-import java.util.List;
 
 @Service
 public class BlogService implements IBlogService {
@@ -42,6 +41,6 @@ public class BlogService implements IBlogService {
 
     @Override
     public void delete(Long id) {
-        iBlogRepository.delete(id);
+        iBlogRepository.deleteById(id);
     }
 }
