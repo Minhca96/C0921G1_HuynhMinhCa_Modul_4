@@ -9,7 +9,7 @@
     </a>
 </p>
 <div id="form">
-    <form action="#" th:action="@{/product/edit}" th:object="${product}"
+    <form action="#" th:action="@{/song/edit}" th:object="${song}"
           method="POST" novalidate="novalidate">
         <input type="hidden" th:field="*{id}"/>
         <div>
@@ -17,12 +17,12 @@
             <input type="text" th:field="*{name}"/>
         </div>
         <div>
-            <label>Detail</label>
-            <input type="email" th:field="*{detail}"/>
+            <label>Single</label>
+            <input type="email" th:field="*{single}"/>
         </div>
         <div>
-            <label>Producer</label>
-            <input type="text" th:field="*{producer}"/>
+            <label>Listening</label>
+            <input type="text" th:field="*{listening}"/>
         </div>
         <input type="submit" value="Edit"/>
     </form>

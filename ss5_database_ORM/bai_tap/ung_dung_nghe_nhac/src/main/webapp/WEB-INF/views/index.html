@@ -47,7 +47,7 @@
         <td th:text="${row.id}"></td>
         <td th:text="${row.name}"></td>
         <td th:text="${row.single}"></td>
-        <td><a th:href="@{${row.listening}}">View</a></td>
+        <td><a th:href="@{/product/{id}/editshow(id=${row.id})}">View</a></td>
         <td><a th:href="@{/product/{id}/editshow(id=${row.id})}">Edit</a></td>
         <td><a th:href="@{/product/{id}/delete(id=${row.id})}">Delete</a></td>
        >

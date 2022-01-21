@@ -19,7 +19,7 @@
     </nav>
 </div>
 <p>
-    <a th:href="@{/product/create}">
+    <a th:href="@{/song/createShow}">
         Add new customer
     </a>
 </p>
@@ -48,8 +48,8 @@
         <td th:text="${row.name}"></td>
         <td th:text="${row.single}"></td>
         <td><a th:href="@{${row.listening}}">Listening</a></td>
-        <td><a th:href="@{/product/{id}/editshow(id=${row.id})}">Edit</a></td>
-        <td><a th:href="@{/product/{id}/delete(id=${row.id})}">Delete</a></td>
+        <td><a th:href="@{/song/{id}/editShow(id=${row.id})}">Edit</a></td>
+        <td><a th:href="@{/song/{id}/delete(id=${row.id})}">Delete</a></td>
        >
     </tr>
     </tbody>

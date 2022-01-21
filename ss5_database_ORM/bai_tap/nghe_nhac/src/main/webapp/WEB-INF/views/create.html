@@ -26,14 +26,14 @@
 <!--        </div>-->
 <!--        <input type="submit" value="Save"/>-->
 <!--    </form>-->
-    <form th:action="@{/product/add}" th:object="${product}" method="post" novalidate="novalidate">
+    <form th:action="@{/song/create}" th:object="${song}" method="post" novalidate="novalidate">
         <input type="hidden" th:field="*{id}">
         <label>Name</label>
         <input type="text" th:field="*{name}">
-        <label>Detail</label>
-        <input type="text" th:field="*{detail}">
-        <label>Producer</label>
-        <input type="text" th:field="*{producer}">
+        <label>Single</label>
+        <input type="text" th:field="*{single}">
+        <label>Listening</label>
+        <input type="text" th:field="*{listening}">
         <input type="submit" value="save">
 
     </form>
