@@ -73,4 +73,10 @@ public class SongController {
 
     }
 
+    @GetMapping("{id}/delete")
+    private String delete(@PathVariable Long id){
+        iSongService.deleteById(id);
+        return "redirect:/listAll";
+    }
+
 }

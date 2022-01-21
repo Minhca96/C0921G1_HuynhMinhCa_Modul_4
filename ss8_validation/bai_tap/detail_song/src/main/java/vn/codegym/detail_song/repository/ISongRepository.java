@@ -8,5 +8,5 @@ import vn.codegym.detail_song.model.Song;
 @Repository
 public interface ISongRepository extends JpaRepository<Song,Long> {
 Page<Song> findByNameContaining(String s,Pageable p);
-
+void deleteById(Long id);
 }

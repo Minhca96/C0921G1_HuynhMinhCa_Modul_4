@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 import vn.codegym.detail_song.model.Song;
 import vn.codegym.detail_song.repository.ISongRepository;
 
+import java.util.Optional;
+
 @Service
 public class SongService implements ISongService{
     @Autowired
@@ -34,6 +36,14 @@ public class SongService implements ISongService{
     public Song getById(Long id) {
         return iSongRepository.getById(id);
     }
+
+    @Override
+    public void deleteById(Long id) {
+        iSongRepository.deleteById(id);
+    }
+
+
+
 
 
 }

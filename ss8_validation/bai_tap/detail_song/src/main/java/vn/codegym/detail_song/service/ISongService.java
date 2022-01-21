@@ -5,6 +5,7 @@ import org.springframework.data.domain.Pageable;
 import vn.codegym.detail_song.model.Song;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface ISongService {
    Page<Song> findAll(Pageable pageable);
@@ -14,4 +15,6 @@ public interface ISongService {
    Page<Song> findByNameContaining(String s,Pageable p);
 
    Song getById(Long id);
+
+   void deleteById(Long id);
 }
