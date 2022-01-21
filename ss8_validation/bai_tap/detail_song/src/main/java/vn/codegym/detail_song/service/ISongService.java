@@ -11,4 +11,7 @@ public interface ISongService {
 
 
    void save(Song song);
+   Page<Song> findByNameContaining(String s,Pageable p);
+
+   Song getById(Long id);
 }

@@ -10,13 +10,15 @@
 <div class="container">
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
-            <form class="d-flex" action="list" >
+            <form class="d-flex" action="/listAll" >
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="key_search" >
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
         </div>
     </nav>
 </div>
+
+
 <!--<form action="list">-->
 <!--    <select name="cateId" onchange="this.form.submit()">-->
 <!--        <option disabled selected>Choose Category</option>-->
@@ -34,12 +36,14 @@
 </p>
 
 
-
+<p>
 <div class="notify">
     <div th:if="${message}">
         <span th:text="${message}"></span>
     </div>
 </div>
+
+</p>
 
 <table id = "layout">
     <thead>

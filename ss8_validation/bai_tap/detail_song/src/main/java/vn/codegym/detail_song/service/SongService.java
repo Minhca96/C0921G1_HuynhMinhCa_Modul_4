@@ -18,9 +18,21 @@ public class SongService implements ISongService{
         return iSongRepository.findAll(pageable);
     }
 
+
+
     @Override
     public void save(Song song) {
         iSongRepository.save(song);
+    }
+
+    @Override
+    public Page<Song> findByNameContaining(String s, Pageable p) {
+        return iSongRepository.findByNameContaining(s,p);
+    }
+
+    @Override
+    public Song getById(Long id) {
+        return iSongRepository.getById(id);
     }
 
 
