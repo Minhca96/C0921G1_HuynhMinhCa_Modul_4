@@ -1,5 +1,6 @@
 package vn.codegym.detail_song.service;
 
+import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -16,4 +17,11 @@ public class SongService implements ISongService{
     public Page<Song> findAll(Pageable pageable) {
         return iSongRepository.findAll(pageable);
     }
+
+    @Override
+    public void save(Song song) {
+        iSongRepository.save(song);
+    }
+
+
 }

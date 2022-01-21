@@ -40,7 +40,6 @@ public class UserController {
 
         new UserDto().validate(userDto,bindingResult);
         if (bindingResult.hasFieldErrors()){
-
             return "create";
         }else{
             User user = new User();

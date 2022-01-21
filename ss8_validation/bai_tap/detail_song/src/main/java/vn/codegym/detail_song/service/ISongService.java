@@ -8,4 +8,7 @@ import java.util.List;
 
 public interface ISongService {
    Page<Song> findAll(Pageable pageable);
+
+
+   void save(Song song);
 }

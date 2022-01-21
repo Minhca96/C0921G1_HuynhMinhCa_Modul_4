@@ -8,17 +8,17 @@ import javax.validation.constraints.Size;
 
 public class SongDto {
     private Long id;
-@NotBlank(message = "khong duoc de trong")
-@Size(message = "ten bai hat ko duoc nho hon 1 ky tu va lon hon 8000",min = 1, max = 800)
-@Pattern(message = "ten khong chua ky tu dat biet",regexp="^([A-Z][a-z]+)( [A-Z][a-z]*)*$")
+    @NotBlank
+    @Size(min = 1, max = 800)
+    @Pattern(message = "ten bai hat phai dung chuan tieng viet",regexp="^([A-Z][a-z]+)( [A-Z][a-z]*)*$")
     private String name;
-    @NotBlank(message = "khong duoc de trong")
-    @Size(message = "ten bai hat ko duoc nho hon 1 ky tu va lon hon 8000",min = 1, max = 800)
-    @Pattern(message = "ten khong chua ky tu dat biet",regexp="^([A-Z][a-z]+)( [A-Z][a-z]*)*$")
+    @NotBlank
+    @Size(min = 1, max = 800)
+    @Pattern(message = "ten rieng phai dung chuan tieng viet",regexp="^([A-Z][a-z]+)( [A-Z][a-z]*)*$")
     private String type;
-    @NotBlank(message = "khong duoc de trong")
-    @Size(message = "ten bai hat ko duoc nho hon 1 ky tu va lon hon 8000",min = 1, max = 800)
-    @Pattern(message = "ten khong chua ky tu dat biet",regexp="^([A-Z][a-z]+)( [A-Z][a-z]*)*$")
+    @NotBlank
+    @Size(min = 1, max = 800)
+    @Pattern(message = "ten ca sy phai dung chuan tieng viet",regexp="^([A-Z][a-z]+)( [A-Z][a-z]*)*$")
     private String single;
 
     public SongDto() {
