@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b007b30-0bdc-4d17-9568-f76db4acf0b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/formatter/ProvinceFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/logger/logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/model/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/repository/ProvinceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/service/impl/CustomerServiceImplWithSpringData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/service/impl/ProvinceServiceImplWithSpringData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/bo_sung_aspect/src/main/resources/templates/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/bo_sung_aspect/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/formatter/ProvinceFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/model/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/repository/ProvinceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/service/DuplicateEmailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/service/impl/CustomerServiceImplWithSpringData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/service/impl/ProvinceServiceImplWithSpringData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_dung_exception_handler/src/main/resources/templates/customers/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_dung_exception_handler/src/main/resources/templates/customers/inputs-not-acceptable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/su_dung_exception_handler/src/main/resources/templates/customers/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss5_database_ORM/thu_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss5_database_ORM/thu_hanh/customer-management" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="248Z0Clq9AiZRNqBLI9WYdPiLmD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="UngDungMuonSachApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ung_dung_muon_sach" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vn.codegym.ung_dung_muon_sach.UngDungMuonSachApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b007b30-0bdc-4d17-9568-f76db4acf0b1" name="Default Changelist" comment="" />
+      <created>1643013948708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643013948708</updated>
+      <workItem from="1643013953379" duration="252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="91" y="6" key="new project wizard" timestamp="1643014206853">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="91" y="6" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1643014206853" />
+  </component>
+</project>
