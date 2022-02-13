@@ -14,7 +14,7 @@ import java.util.Arrays;
 public class Loggers {
     private Logger logger= LoggerFactory.getLogger(this.getClass());
 
-    @AfterReturning(pointcut = "execution(* com.example.book_manager.controller.BookController.*(..))")
+    @AfterReturning(pointcut = "execution(* vn.codegym.ung_dung_muon_sach.controller.BookController.*(..))")
     public void log(JoinPoint joinPoint) {
         String className = joinPoint.getTarget().getClass().getSimpleName();
         String method = joinPoint.getSignature().getName();
