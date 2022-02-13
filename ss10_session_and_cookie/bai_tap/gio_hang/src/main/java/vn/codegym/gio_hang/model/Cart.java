@@ -43,19 +43,29 @@ public class Cart {
         if(!checkItemInCart(product)){
             map.put(product,1);
         }else {
-            Map.Entry<Product,Integer> integerEntry =selectItemInCart(product);
+            Map.Entry<Product,Integer> integerEntry = selectItemInCart(product);
             Integer newQuantity = integerEntry.getValue() + 1;
             map.replace(integerEntry.getKey(),newQuantity);
         }
     }
 
     public void deleteProduct(Product product) {
-        if(map.get(product)==1){
-            map.remove(product);
-        }else {
-            Map.Entry<Product,Integer> integerEntry =selectItemInCart(product);
-            Integer newQuantity = integerEntry.getValue() - 1;
-            map.replace(integerEntry.getKey(),newQuantity);
+        if (checkItemInCart(product)) {
+            for (Map.Entry<Product, Integer> entry : map.entrySet()
+            ) {
+                if (entry.getValue() == 0) {
+                    map.remove(entry);
+                } else {
+                    Map.Entry<Product, Integer> integerEntry = selectItemInCart(product);
+                    Integer newQuantity = integerEntry.getValue() - 1;
+                    map.replace(integerEntry.getKey(), newQuantity);
+                }
+            }
+//        }else {
+//            Map.Entry<Product,Integer> integerEntry =selectItemInCart(product);
+//            Integer newQuantity = integerEntry.getValue() - 1;
+//            map.replace(integerEntry.getKey(),newQuantity);
+//        }
         }
     }
 
