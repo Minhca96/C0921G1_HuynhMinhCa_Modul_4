@@ -70,10 +70,10 @@
 
 <footer th:replace="/layout :: footer"></footer>
 <div>
-    <a th:href="@{'/blog'(page=${blogList.number - 1},key_search=${key_search},cateId=${cateId})}"
+    <a th:href="@{'/blog'(page=${blogList.number - 1}, key_search=${key_search}, cateId=${cateId})}"
        th:if="${blogList.hasPrevious()}">Previous</a>
-    <span th:text="${blogList.number + 1}"></span>/ <span th:text="${blogList.totalPages}"></span>
-    <a th:href="@{'/blog'(page=${blogList.number + 1},key_search=${key_search},cateId=${cateId})}"
+    <span th:text="${blogList.number + 1}"></span> / <span th:text="${blogList.totalPages}"></span>
+    <a th:href="@{'/blog'(page=${blogList.number + 1}, key_search=${key_search}, cateId=${cateId})}"
        th:if="${blogList.hasNext()}">Next</a>
 </div>
 </body>

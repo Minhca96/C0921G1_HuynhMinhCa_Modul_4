@@ -20,36 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d131dbd-6f8f-4dbf-ba0a-4dd3fb99b37b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/formatter/ProvinceFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/logger/logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/model/Province.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/repository/ProvinceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/service/ProvinceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/service/impl/CustomerServiceImplWithSpringData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bo_sung_aspect/src/main/java/vn/codegym/bo_sung_aspect/service/impl/ProvinceServiceImplWithSpringData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bo_sung_aspect/src/main/resources/templates/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bo_sung_aspect/src/main/resources/templates/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/formatter/ProvinceFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/model/Province.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/repository/ProvinceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/service/DuplicateEmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/service/ProvinceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/service/impl/CustomerServiceImplWithSpringData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../su_dung_exception_handler/src/main/java/vn/codegym/su_dung_exception_handler/service/impl/ProvinceServiceImplWithSpringData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../su_dung_exception_handler/src/main/resources/templates/customers/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../su_dung_exception_handler/src/main/resources/templates/customers/inputs-not-acceptable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../su_dung_exception_handler/src/main/resources/templates/customers/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_web service/bai_tap/ung_dung_blog/src/main/java/vn/codegym/ung_dung_blog/controller/BlogRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_web service/bai_tap/ung_dung_blog/src/main/java/vn/codegym/ung_dung_blog/controller/CategoryRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_web service/bai_tap/ung_dung_blog/src/main/java/vn/codegym/ung_dung_blog/dto/BlogDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss12_Ajax_and_Jquery/thuc_hanh/quan_ly_dien_thoai/src/main/java/vn/codegym/demo/model/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss12_Ajax_and_Jquery/thuc_hanh/quan_ly_dien_thoai/src/main/java/vn/codegym/demo/repository/ISmartphoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss12_Ajax_and_Jquery/thuc_hanh/su_dung_jquery_tao_hieu_ung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_tap/ung_dung_muon_sach_new/src/main/java/vn/codegym/ung_dung_muon_sach/model/CodeBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_web service/bai_tap/ung_dung_blog/src/main/java/vn/codegym/ung_dung_blog/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss11_web service/bai_tap/ung_dung_blog/src/main/java/vn/codegym/ung_dung_blog/model/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_web service/bai_tap/ung_dung_blog/src/main/java/vn/codegym/ung_dung_blog/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss11_web service/bai_tap/ung_dung_blog/src/main/java/vn/codegym/ung_dung_blog/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss11_web service/bai_tap/ung_dung_blog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss11_web service/bai_tap/ung_dung_blog/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ss1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ss5_database_ORM/thu_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss5_database_ORM/thu_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss7_Spring_data_Repository_ss17_Spring_Boot/bai_tap/ung_dung_blog_mo_rong/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss7_Spring_data_Repository_ss17_Spring_Boot/bai_tap/ung_dung_blog_mo_rong/src/main/resources/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss7_Spring_data_Repository_ss17_Spring_Boot/bai_tap/ung_dung_blog_mo_rong/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss7_Spring_data_Repository_ss17_Spring_Boot/bai_tap/ung_dung_blog_mo_rong/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/ung_dung_muon_sach_new/src/main/java/vn/codegym/ung_dung_muon_sach/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_tap/ung_dung_muon_sach_new/src/main/java/vn/codegym/ung_dung_muon_sach/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/ung_dung_muon_sach_new/src/main/java/vn/codegym/ung_dung_muon_sach/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_tap/ung_dung_muon_sach_new/src/main/java/vn/codegym/ung_dung_muon_sach/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/ung_dung_muon_sach_new/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_tap/ung_dung_muon_sach_new/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/ung_dung_muon_sach_new/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_tap/ung_dung_muon_sach_new/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,18 +65,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bo_sung_aspect" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UngDungMuonSachApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ung_dung_muon_sach.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="vn.codegym.ung_dung_muon_sach.UngDungMuonSachApplication" />
@@ -106,6 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643013708125</updated>
       <workItem from="1643013716619" duration="231000" />
+      <workItem from="1644655143840" duration="121000" />
     </task>
     <servers />
   </component>
@@ -122,8 +104,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1644655264838">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1644655264838" />
     <state x="91" y="6" key="new project wizard" timestamp="1643013948659">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

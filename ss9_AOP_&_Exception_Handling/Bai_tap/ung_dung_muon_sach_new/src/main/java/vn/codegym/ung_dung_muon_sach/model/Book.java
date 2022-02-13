@@ -1,31 +1,30 @@
 package vn.codegym.ung_dung_muon_sach.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "books")
 public class Book {
     @Id
-    @GeneratedValue( strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String idCard;
-    private int toTal;
+
     private String name;
-    private String author;
-    private String detail;
+    private int quantity;
+
+    @ManyToOne(targetEntity = Customer.class)
+    @JoinColumn(name = "customer_id")
+    private Customer customer;
 
     public Book() {
     }
 
-    public Book(Long id, String idCard, int toTal, String name, String author, String detail) {
-        this.id = id;
-        this.idCard = idCard;
-        this.toTal = toTal;
-        this.name = name;
-        this.author = author;
-        this.detail = detail;
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
     }
 
     public Long getId() {
@@ -36,22 +35,6 @@ public class Book {
         this.id = id;
     }
 
-    public String getIdCard() {
-        return idCard;
-    }
-
-    public void setIdCard(String idCard) {
-        this.idCard = idCard;
-    }
-
-    public int getToTal() {
-        return toTal;
-    }
-
-    public void setToTal(int toTal) {
-        this.toTal = toTal;
-    }
-
     public String getName() {
         return name;
     }
@@ -60,31 +43,13 @@ public class Book {
         this.name = name;
     }
 
-    public String getAuthor() {
-        return author;
+    public int getQuantity() {
+        return quantity;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 
-    public String getDetail() {
-        return detail;
-    }
 
-    public void setDetail(String detail) {
-        this.detail = detail;
-    }
-
-    @Override
-    public String toString() {
-        return "Book{" +
-                "id=" + id +
-                ", idCard='" + idCard + '\'' +
-                ", toTal=" + toTal +
-                ", name='" + name + '\'' +
-                ", author='" + author + '\'' +
-                ", detail='" + detail + '\'' +
-                '}';
-    }
 }

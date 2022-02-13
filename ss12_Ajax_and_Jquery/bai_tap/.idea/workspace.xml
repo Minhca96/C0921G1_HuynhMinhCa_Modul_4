@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94105b20-fdd8-4e31-bedf-aaf66773975d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ss11_web service/bai_tap/ung_dung_blog/src/main/java/vn/codegym/ung_dung_blog/controller/BlogRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_web service/bai_tap/ung_dung_blog/src/main/java/vn/codegym/ung_dung_blog/controller/CategoryRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_web service/bai_tap/ung_dung_blog/src/main/java/vn/codegym/ung_dung_blog/dto/BlogDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss11_web service/bai_tap/ung_dung_blog/src/main/java/vn/codegym/ung_dung_blog/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss11_web service/bai_tap/ung_dung_blog/src/main/java/vn/codegym/ung_dung_blog/model/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss11_web service/bai_tap/ung_dung_blog/src/main/java/vn/codegym/ung_dung_blog/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss11_web service/bai_tap/ung_dung_blog/src/main/java/vn/codegym/ung_dung_blog/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss11_web service/bai_tap/ung_dung_blog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss11_web service/bai_tap/ung_dung_blog/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5_database_ORM/thu_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5_database_ORM/thu_hanh/customer-management" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="24wtCGLXe1zettA8TKhBjRRHd3O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thuc_hanh" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94105b20-fdd8-4e31-bedf-aaf66773975d" name="Default Changelist" comment="" />
+      <created>1644553347888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644553347888</updated>
+      <workItem from="1644553349206" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1644553362236">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1644553362236" />
+  </component>
+</project>

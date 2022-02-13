@@ -1,30 +1,85 @@
 package vn.codegym.ung_dung_muon_sach.controller;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
-
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-
+import org.springframework.web.servlet.ModelAndView;
+import vn.codegym.ung_dung_muon_sach.exception.BookException;
+import vn.codegym.ung_dung_muon_sach.model.Book;
 import vn.codegym.ung_dung_muon_sach.service.IBookService;
 
 @Controller
-@RequestMapping("book")
 public class BookController {
     @Autowired
-    private IBookService iBookService;
-@GetMapping(" ")
-    private String showAll(Model model, @PageableDefault Pageable pageable){
-    model.addAttribute("bookList", iBookService.findAll(pageable));
-    return "home";
-}
-@GetMapping("{id}/viewBook")
-    private String viewBook(Model model, @PathVariable Long id){
-    model.addAttribute("book",iBookService.getById(id));
-    return "viewBook";
-}
+    private IBookService bookService;
+
+    @GetMapping(value = {"/", "/books"})
+    public ModelAndView showListBook() {
+        Iterable<Book> books = this.bookService.findAll();
+        ModelAndView modelAndView = new ModelAndView("book/list");
+        modelAndView.addObject("books", books);
+        return modelAndView;
+
+    }
+
+    @GetMapping("/books/{id}")
+    public ModelAndView viewBook(@PathVariable("id") Long id) {
+        Book book = bookService.findById(id);
+        if (book == null) {
+            return new ModelAndView("error-404");
+        }
+        ModelAndView modelAndView = new ModelAndView("book/view");
+        modelAndView.addObject("book", book);
+        return modelAndView;
+    }
+
+    // mượn sách
+    @GetMapping("/books/borrow/{id}")
+    public ModelAndView borrowBook(@PathVariable Long id)  {
+        Book book = bookService.findById(id);
+        if (book == null) {
+            return new ModelAndView("error-404");
+        }
+        book.setQuantity(book.getQuantity() - 1);
+
+
+        if (book.getQuantity() < 0) {
+            return new ModelAndView("error");
+        }
+        bookService.save(book);
+        Iterable<Book> books = bookService.findAll();
+        ModelAndView modelAndView = new ModelAndView("book/list");
+        modelAndView.addObject("books", books);
+        return modelAndView;
+    }
+
+    // trả sách
+    @GetMapping("/books/get/{id}")
+    public ModelAndView getBook(@PathVariable Long id) {
+        Book book = bookService.findById(id);
+        if (book == null) {
+            return new ModelAndView("error-404");
+        }
+        book.setQuantity(book.getQuantity() + 1);
+        bookService.save(book);
+        Iterable<Book> books = bookService.findAll();
+        ModelAndView modelAndView = new ModelAndView("book/list");
+        modelAndView.addObject("books", books);
+        return modelAndView;
+    }
+
+    // Handler exception
+
+    @ExceptionHandler(BookException.class)
+    public String handleBookException() {
+        return "error";
+    }
+
+    @ExceptionHandler(BookException.class)
+    public String handleNotFountException() {
+        return "error-404";
+    }
 }

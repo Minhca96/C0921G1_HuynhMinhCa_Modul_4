@@ -20,7 +20,7 @@
             <label>Type</label>
             <input type="email" th:field="*{type}"/>
         </div>
-        <select th:field="*{category}">
+        <select th:field="*{category.id}">
             <option th:each="p : ${categoryList}" th:value="${p.id}" th:text="${p.name}"></option>
         </select>
         <input type="submit" value="Edit"/>
