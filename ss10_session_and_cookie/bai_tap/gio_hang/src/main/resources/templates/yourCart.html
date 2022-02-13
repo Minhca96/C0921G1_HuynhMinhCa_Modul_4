@@ -54,14 +54,11 @@
     </style>
 </head>
 <body>
-<div>
-    <a href="/getAll">Home</a>
-</div>
 
     <h1>Your Cart</h1>
     <form th:action="@{getAll}" th:object="${cart}" method="post">
 <h3> Total items: <span th:text="${cart.countItemQuantity()}"></span></h3>
-<h3> Total items: <span th:text="${cart.countProductQuantity()()}"></span></h3>
+<h3> Total items: <span th:text="${cart.countProductQuantity()}"></span></h3>
        </form>
 
 <div>
@@ -73,31 +70,37 @@
             <th>Name</th>
             <th>Price</th>
             <th>Quantity</th>
+            <th>Delete</th>
 
 
         </tr>
         </thead>
         <tbody>
         <tr th:each="row: ${cart.map}">
-            <td><img th:src="${row.key.detail}" alt="" style="width: 110px; height:auto"></td>
-            <td th:text="${row.key.name}"></td>
-            <td th:text="${row.key.price}"></td>
+            <td><img th:src="${row.getKey().detail}" alt="" style="width: 110px; height:auto"></td>
+            <td th:text="${row.getKey().name}"></td>
+            <td th:text="${row.getKey().price}"></td>
             <td>
-                <a id="decrease_button" th:text="${'-'}"></a>
+                <a id="decrease_button" th:href="@{/add/__${row.getKey().id}__(action='-')}" th:text="${'-'}"></a>
                 <span th:text="${row.getValue()}"></span>
-                <a id="increase_button" th:href="@{/add/__${row.getKey().id}__(action='show')}"
+                <a id="increase_button" th:href="@{/add/__${row.getKey().id}__(action='+')}"
                    th:text="${'+'}"></a>
+
             </td>
-
-
+<!--        <td><a th:href="@{/remoteProduct()}">Delete</a></td>-->
+            <td><a th:href="@{/add/__${row.getKey().id}__(action='delete')}">Delete</a></td>
         </tr>
-
+        <tr>
+            <td style="font-size:100px;">Total</td>
+            <td></td>
+            <td th:text="${cart.countTotalPayment()}"></td>
+        </tr>
         </tbody>
     </table>
 </div>
 
 <div>
-    <a th:href="@{/book/viewAddBook}">Back Book</a>
+    <a th:href="@{/getAll}">Home</a>
 </div>
 </body>
 </html>

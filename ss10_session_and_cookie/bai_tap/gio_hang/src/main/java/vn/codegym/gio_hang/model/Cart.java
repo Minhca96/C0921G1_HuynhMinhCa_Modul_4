@@ -49,6 +49,21 @@ public class Cart {
         }
     }
 
+    public void deleteProduct(Product product) {
+        if(map.get(product)==1){
+            map.remove(product);
+        }else {
+            Map.Entry<Product,Integer> integerEntry =selectItemInCart(product);
+            Integer newQuantity = integerEntry.getValue() - 1;
+            map.replace(integerEntry.getKey(),newQuantity);
+        }
+    }
+
+    public void delete(Product product){
+       map.remove(product);
+    }
+
+
     public Integer countProductQuantity(){
         Integer productQuantity = 0;
         for (Map.Entry<Product, Integer> entry : map.entrySet()) {
@@ -60,6 +75,8 @@ public class Cart {
     public Integer countItemQuantity(){
         return map.size();
     }
+
+
 
     public Float countTotalPayment(){
         float payment = 0;

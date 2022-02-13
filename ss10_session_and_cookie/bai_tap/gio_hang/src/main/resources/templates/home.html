@@ -81,7 +81,8 @@
             <td><img th:src="${row.detail}" alt="" style="width: 110px; height:auto"></td>
             <td th:text="${row.name}"></td>
             <td th:text="${row.price}"></td>
-            <td><a th:href="@{/add/__${row.id}__}">Add To Cart</a></td>
+<!--            <td><a th:href="@{/add/__${row.id}__}">Add To Cart</a></td>-->
+            <td><a th:href="@{/add/__${row.id}__(action='list')}">Add To Cart</a></td>
 
         </tr>
 
