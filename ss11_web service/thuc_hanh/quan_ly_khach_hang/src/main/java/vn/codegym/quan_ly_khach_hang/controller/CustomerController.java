@@ -11,8 +11,8 @@ import vn.codegym.quan_ly_khach_hang.service.ICustomerService;
 
 import java.util.List;
 import java.util.Optional;
-
-@Controller
+@CrossOrigin(origins = "*")
+@RestController
 @RequestMapping("api/customer")
 public class CustomerController {
     @Autowired

@@ -1,5 +1,6 @@
 package vn.codegym.ung_dung_blog.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import javax.persistence.*;
@@ -11,7 +12,8 @@ public class Blog {
     private Long id;
     private String name;
     private String type;
-    @JsonManagedReference
+    @JsonBackReference
+
     @ManyToOne(targetEntity = Category.class)
     private Category category;
 

@@ -1,25 +1,18 @@
-package vn.codegym.ung_dung_blog.model;
+package vn.codegym.ung_dung_blog.dto;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
+import vn.codegym.ung_dung_blog.model.Blog;
 
-import javax.persistence.*;
 import java.util.List;
 
-@Entity
-public class Category {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private  String name;
-    @JsonManagedReference
-    @OneToMany(mappedBy = "category")
-    private List<Blog> blog;
+public class CategoryDto {
+   private Long id;
+   private String name;
+   private List<Blog> blog;
 
-    public Category() {
+    public CategoryDto() {
     }
 
-    public Category(Long id, String name, List<Blog> blog) {
+    public CategoryDto(Long id, String name, List<Blog> blog) {
         this.id = id;
         this.name = name;
         this.blog = blog;
@@ -51,7 +44,7 @@ public class Category {
 
     @Override
     public String toString() {
-        return "Category{" +
+        return "CategoryDto{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", blog=" + blog +
