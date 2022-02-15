@@ -23,7 +23,7 @@ public class BlogController {
     @Autowired
     IBlogService iBlogService;
     @Autowired
-    ICategoryService iCategoryService;
+    private ICategoryService iCategoryService;
     @GetMapping("blog")
     private String getListBlog(Optional<String> key_search, Optional<Long> cateId, Model model,
                                @PageableDefault(size=2) Pageable pageable) {

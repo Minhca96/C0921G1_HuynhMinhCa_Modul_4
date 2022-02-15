@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="301ef3c1-0fc3-4ad0-ad8a-e4739723f001" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/bai_tap/quan_ly_khach_hang/src/main/java/vn/codegym/quan_ly_khach_hang/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/bai_tap/quan_ly_khach_hang/src/main/java/vn/codegym/quan_ly_khach_hang/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/bai_tap/quan_ly_khach_hang/src/main/java/vn/codegym/quan_ly_khach_hang/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/bai_tap/quan_ly_khach_hang/src/main/java/vn/codegym/quan_ly_khach_hang/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/bai_tap/quan_ly_khach_hang/src/main/java/vn/codegym/quan_ly_khach_hang/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/bai_tap/quan_ly_khach_hang/src/main/java/vn/codegym/quan_ly_khach_hang/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/bai_tap/quan_ly_khach_hang/src/main/resources/i18n/message_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/bai_tap/quan_ly_khach_hang/src/main/resources/i18n/message_vi.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/bai_tap/quan_ly_khach_hang/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/thuc_hanh/ung_dung_loggin/src/main/java/vn/codegym/loggin/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/thuc_hanh/ung_dung_loggin/src/main/java/vn/codegym/loggin/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/thuc_hanh/ung_dung_loggin/src/main/java/vn/codegym/loggin/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/thuc_hanh/ung_dung_loggin/src/main/resources/i18n/message_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/thuc_hanh/ung_dung_loggin/src/main/resources/i18n/message_haw.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/thuc_hanh/ung_dung_loggin/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/thuc_hanh/ung_dung_loggin/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13_I18N/thuc_hanh/ung_dung_loggin/src/main/resources/templates/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/quan_ly_dien_thoai/src/main/java/vn/codegym/quan_ly_dien_thoai/Repository/ISmartphoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/quan_ly_dien_thoai/src/main/java/vn/codegym/quan_ly_dien_thoai/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/quan_ly_dien_thoai/src/main/java/vn/codegym/quan_ly_dien_thoai/controller/SmartphoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/quan_ly_dien_thoai/src/main/java/vn/codegym/quan_ly_dien_thoai/model/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/quan_ly_dien_thoai/src/main/java/vn/codegym/quan_ly_dien_thoai/service/ISmartphoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/quan_ly_dien_thoai/src/main/java/vn/codegym/quan_ly_dien_thoai/service/SmartphoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/quan_ly_dien_thoai/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/quan_ly_dien_thoai/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/ung_dung_blog_mo_rong_ajax/src/main/java/vn/codegym/ung_dung_blog_mo_rong_ajax/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/ung_dung_blog_mo_rong_ajax/src/main/java/vn/codegym/ung_dung_blog_mo_rong_ajax/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/ung_dung_blog_mo_rong_ajax/src/main/java/vn/codegym/ung_dung_blog_mo_rong_ajax/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/ung_dung_blog_mo_rong_ajax/src/main/java/vn/codegym/ung_dung_blog_mo_rong_ajax/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/ung_dung_blog_mo_rong_ajax/src/main/java/vn/codegym/ung_dung_blog_mo_rong_ajax/repository/IBlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/ung_dung_blog_mo_rong_ajax/src/main/java/vn/codegym/ung_dung_blog_mo_rong_ajax/repository/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/ung_dung_blog_mo_rong_ajax/src/main/java/vn/codegym/ung_dung_blog_mo_rong_ajax/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/ung_dung_blog_mo_rong_ajax/src/main/java/vn/codegym/ung_dung_blog_mo_rong_ajax/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/ung_dung_blog_mo_rong_ajax/src/main/java/vn/codegym/ung_dung_blog_mo_rong_ajax/service/IBlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/ung_dung_blog_mo_rong_ajax/src/main/java/vn/codegym/ung_dung_blog_mo_rong_ajax/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_AOP_&amp;_Exception_Handling/Bai_tap/ung_dung_blog_mo_rong_ajax/src/main/resources/templates/blogList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5_database_ORM/thu_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../ss5_database_ORM/thu_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7_Spring_data_Repository_ss17_Spring_Boot/bai_tap/ung_dung_blog_mo_rong/src/main/java/vn/codegym/demo/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss7_Spring_data_Repository_ss17_Spring_Boot/bai_tap/ung_dung_blog_mo_rong/src/main/java/vn/codegym/demo/controller/BlogController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="255mq0BEg5dKc3X1kDSmyd0ZXBs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BlogAjaxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ung_dung_blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vn.codegym.BlogAjaxApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="301ef3c1-0fc3-4ad0-ad8a-e4739723f001" name="Default Changelist" comment="" />
+      <created>1644825508387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644825508387</updated>
+      <workItem from="1644825511867" duration="6452000" />
+      <workItem from="1644848923615" duration="2215000" />
+      <workItem from="1644893902627" duration="855000" />
+      <workItem from="1644907296146" duration="4225000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1644825930863">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1644825930863" />
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1644832124793">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1644832124793" />
+    <state width="1237" height="45" key="GridCell.Tab.0.bottom" timestamp="1644894862873">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="45" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1644894862873" />
+    <state width="1493" height="258" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1644852890043" />
+    <state width="1237" height="45" key="GridCell.Tab.0.center" timestamp="1644894862873">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="45" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1644894862873" />
+    <state width="1493" height="258" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1644852890042" />
+    <state width="1237" height="45" key="GridCell.Tab.0.left" timestamp="1644894862873">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="45" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1644894862873" />
+    <state width="1493" height="258" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1644852890042" />
+    <state width="1237" height="45" key="GridCell.Tab.0.right" timestamp="1644894862873">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="45" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1644894862873" />
+    <state width="1493" height="258" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1644852890042" />
+    <state width="1237" height="45" key="GridCell.Tab.1.bottom" timestamp="1644894862873">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="45" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1644894862873" />
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1644852890043" />
+    <state width="1237" height="45" key="GridCell.Tab.1.center" timestamp="1644894862873">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="45" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1644894862873" />
+    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1644852890043" />
+    <state width="1237" height="45" key="GridCell.Tab.1.left" timestamp="1644894862873">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="45" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1644894862873" />
+    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1644852890043" />
+    <state width="1237" height="45" key="GridCell.Tab.1.right" timestamp="1644894862873">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="45" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1644894862873" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1644852890043" />
+    <state width="1493" height="258" key="GridCell.Tab.2.bottom" timestamp="1644852890044">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1644852890044" />
+    <state width="1493" height="258" key="GridCell.Tab.2.center" timestamp="1644852890043">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1644852890043" />
+    <state width="1493" height="258" key="GridCell.Tab.2.left" timestamp="1644852890043">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1644852890043" />
+    <state width="1493" height="258" key="GridCell.Tab.2.right" timestamp="1644852890044">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1644852890044" />
+    <state x="478" y="112" width="579" height="592" key="find.popup" timestamp="1644825834593">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="478" y="112" width="579" height="592" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1644825834593" />
+    <state x="425" y="185" key="run.anything.popup" timestamp="1644827379329">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1644827379329" />
+  </component>
+</project>
