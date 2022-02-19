@@ -6,7 +6,7 @@ import javax.persistence.*;
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     @ManyToOne(targetEntity = CustomerType.class)
     private CustomerType customerTypeId;
     private String name;
@@ -20,11 +20,11 @@ public class Customer {
     public Customer() {
     }
 
-    public Customer(int id) {
+    public Customer(Long id) {
         this.id = id;
     }
 
-    public Customer(int id, CustomerType customerTypeId, String name, String birthDay,
+    public Customer(Long id, CustomerType customerTypeId, String name, String birthDay,
                     String gender, String card, String phone, String email, String address) {
         this.id = id;
         this.customerTypeId = customerTypeId;
@@ -37,11 +37,11 @@ public class Customer {
         this.address = address;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

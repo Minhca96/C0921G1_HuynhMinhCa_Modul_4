@@ -7,7 +7,7 @@ import java.util.List;
 public class Position {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     private String name;
     @OneToMany(mappedBy = "positionId")
     private List<Employee> employeeList;
@@ -15,21 +15,21 @@ public class Position {
     public Position() {
     }
 
-    public Position(int id) {
+    public Position(Long id) {
         this.id = id;
     }
 
-    public Position(int id, String name, List<Employee> employeeList) {
+    public Position(Long id, String name, List<Employee> employeeList) {
         this.id = id;
         this.name = name;
         this.employeeList = employeeList;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

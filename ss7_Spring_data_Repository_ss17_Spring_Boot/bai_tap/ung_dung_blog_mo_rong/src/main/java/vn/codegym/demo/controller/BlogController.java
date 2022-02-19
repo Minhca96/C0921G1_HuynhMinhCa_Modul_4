@@ -69,12 +69,12 @@ public class BlogController {
     private String edit(@ModelAttribute Blog blog,RedirectAttributes redirectAttributes ){
             iBlogService.save(blog);
             redirectAttributes.addFlashAttribute("message","edit thanh cong");
-            return "redirect:/list";
+            return "redirect:/blog";
         }
         @GetMapping("{id}/delete")
     private String delete(@PathVariable Long id, RedirectAttributes redirectAttributes){
             iBlogService.delete(id);
             redirectAttributes.addFlashAttribute("message","delete thanh cong");
-            return "redirect:/list";
+            return "redirect:/blog";
         }
 }

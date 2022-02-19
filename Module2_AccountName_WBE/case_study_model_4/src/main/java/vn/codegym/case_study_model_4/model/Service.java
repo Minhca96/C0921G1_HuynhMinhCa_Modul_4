@@ -7,7 +7,7 @@ import java.util.List;
 public class Service {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     private String name;
     private int area;
     private double cost;
@@ -20,20 +20,18 @@ public class Service {
     private String descriptionOtherConveniance;
     private double poolArea;
     private int numberOfFloors;
-    @OneToMany(mappedBy = "serviceId")
-    private List<Contract> contractList;
+
 
     public Service() {
     }
 
-    public Service(int id) {
+    public Service(Long id) {
         this.id = id;
     }
 
-    public Service(int id, String name, int area, double cost, int maxPeople,
+    public Service(Long id, String name, int area, double cost, int maxPeople,
                    RentType rentTypeId, ServiceType serviceTypeId, String standRoom,
-                   String descriptionOtherConveniance, double poolArea, int numberOfFloors,
-                   List<Contract> contractList) {
+                   String descriptionOtherConveniance, double poolArea, int numberOfFloors) {
         this.id = id;
         this.name = name;
         this.area = area;
@@ -45,14 +43,14 @@ public class Service {
         this.descriptionOtherConveniance = descriptionOtherConveniance;
         this.poolArea = poolArea;
         this.numberOfFloors = numberOfFloors;
-        this.contractList = contractList;
+
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -136,13 +134,6 @@ public class Service {
         this.numberOfFloors = numberOfFloors;
     }
 
-    public List<Contract> getContractList() {
-        return contractList;
-    }
-
-    public void setContractList(List<Contract> contractList) {
-        this.contractList = contractList;
-    }
 
     @Override
     public String toString() {
@@ -158,7 +149,6 @@ public class Service {
                 ", descriptionOtherConveniance='" + descriptionOtherConveniance + '\'' +
                 ", poolArea=" + poolArea +
                 ", numberOfFloors=" + numberOfFloors +
-                ", contractList=" + contractList +
                 '}';
     }
 }

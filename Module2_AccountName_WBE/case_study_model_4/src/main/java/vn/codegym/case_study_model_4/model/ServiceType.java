@@ -7,7 +7,7 @@ import java.util.List;
 public class ServiceType {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     private String name;
     @OneToMany(mappedBy = "serviceTypeId")
     private List<Service> serviceList;
@@ -15,21 +15,21 @@ public class ServiceType {
     public ServiceType() {
     }
 
-    public ServiceType(int id) {
+    public ServiceType(Long id) {
         this.id = id;
     }
 
-    public ServiceType(int id, String name, List<Service> serviceList) {
+    public ServiceType(Long id, String name, List<Service> serviceList) {
         this.id = id;
         this.name = name;
         this.serviceList = serviceList;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

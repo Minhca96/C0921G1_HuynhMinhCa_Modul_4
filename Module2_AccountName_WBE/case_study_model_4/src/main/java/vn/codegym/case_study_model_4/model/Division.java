@@ -7,7 +7,7 @@ import java.util.List;
 public class Division {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     private String name;
     @OneToMany(mappedBy = "divisionId")
     private List<Employee> employeeList;
@@ -15,21 +15,21 @@ public class Division {
     public Division() {
     }
 
-    public Division(int id) {
+    public Division(Long id) {
         this.id = id;
     }
 
-    public Division(int id, String name, List<Employee> employeeList) {
+    public Division(Long id, String name, List<Employee> employeeList) {
         this.id = id;
         this.name = name;
         this.employeeList = employeeList;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
