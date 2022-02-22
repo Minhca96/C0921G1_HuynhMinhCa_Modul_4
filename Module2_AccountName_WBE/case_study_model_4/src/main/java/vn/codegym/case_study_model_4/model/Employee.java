@@ -20,8 +20,8 @@ public class Employee {
     private EducationDegree educationDegreeId;
     @ManyToOne(targetEntity = Division.class)
     private Division divisionId;
-    @OneToOne(targetEntity = User.class)
-    private  User userName;
+//    @OneToOne(targetEntity = User.class)
+//    private  User userName;
 
     public Employee() {
     }
@@ -33,7 +33,7 @@ public class Employee {
     public Employee(Long id, String name, String birthDate, String card, String salary,
                     String phone, String email, String address, Position positionId,
                     EducationDegree educationDegreeId, Division divisionId
-            , User userName
+//            , User userName
     ) {
         this.id = id;
         this.name = name;
@@ -46,7 +46,7 @@ public class Employee {
         this.positionId = positionId;
         this.educationDegreeId = educationDegreeId;
         this.divisionId = divisionId;
-        this.userName = userName;
+//        this.userName = userName;
     }
 
     public Long getId() {
@@ -137,11 +137,11 @@ public class Employee {
         this.divisionId = divisionId;
     }
 
-    public User getUserName() {
-        return userName;
-    }
-
-    public void setUserName(User userName) {
-        this.userName = userName;
-    }
+//    public User getUserName() {
+//        return userName;
+//    }
+//
+//    public void setUserName(User userName) {
+//        this.userName = userName;
+//    }
 }

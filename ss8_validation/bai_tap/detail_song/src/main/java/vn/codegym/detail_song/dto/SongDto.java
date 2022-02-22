@@ -1,7 +1,5 @@
 package vn.codegym.detail_song.dto;
 
-import sun.misc.Regexp;
-
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;

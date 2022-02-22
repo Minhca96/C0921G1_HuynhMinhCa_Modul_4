@@ -7,33 +7,27 @@ import java.util.List;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String name;
+    private Long id;
+
+    private String username;
     private String password;
-    @OneToOne(mappedBy = "userName")
-    private Employee employee;
-    @OneToMany(mappedBy = "roleId")
-    private List<UserRole> userRoleList;
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(
+            name = "user_role",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "role_id")
+    )
+    private List<Role> roles;
 
     public User() {
     }
 
-    public User(String name) {
-        this.name = name;
+    public String getUsername() {
+        return username;
     }
 
-    public User(String name, String password, Employee employee, List<UserRole> userRoleList) {
-        this.name = name;
-        this.password = password;
-        this.employee = employee;
-        this.userRoleList = userRoleList;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
@@ -44,29 +38,11 @@ public class User {
         this.password = password;
     }
 
-    public Employee getEmployee() {
-        return employee;
+    public List<Role> getRoles() {
+        return roles;
     }
 
-    public void setEmployee(Employee employee) {
-        this.employee = employee;
-    }
-
-    public List<UserRole> getUserRoleList() {
-        return userRoleList;
-    }
-
-    public void setUserRoleList(List<UserRole> userRoleList) {
-        this.userRoleList = userRoleList;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", password='" + password + '\'' +
-                ", employee=" + employee +
-                ", userRoleList=" + userRoleList +
-                '}';
+    public void setRoles(List<Role> roles) {
+        this.roles = roles;
     }
 }

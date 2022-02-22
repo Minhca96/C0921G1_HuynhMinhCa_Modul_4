@@ -6,7 +6,7 @@ import javax.persistence.*;
 public class ContractDetail {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     @ManyToOne(targetEntity = Contract.class)
     private Contract contractId;
     @ManyToOne(targetEntity = AttachService.class)
@@ -16,11 +16,11 @@ public class ContractDetail {
     public ContractDetail() {
     }
 
-    public ContractDetail(int id) {
+    public ContractDetail(Long id) {
         this.id = id;
     }
 
-    public ContractDetail(int id, Contract contractId, AttachService attachServiceId,
+    public ContractDetail(Long id, Contract contractId, AttachService attachServiceId,
                           int quantity) {
         this.id = id;
         this.contractId = contractId;
@@ -28,11 +28,11 @@ public class ContractDetail {
         this.quantity = quantity;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

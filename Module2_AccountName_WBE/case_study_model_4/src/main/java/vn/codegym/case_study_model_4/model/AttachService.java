@@ -12,8 +12,6 @@ public class AttachService {
     private double cost;
     private int unit;
     private String status;
-    @OneToMany(mappedBy = "attachServiceId")
-    private List<ContractDetail> contractDetailList;
 
     public AttachService() {
     }
@@ -22,14 +20,14 @@ public class AttachService {
         this.id = id;
     }
 
-    public AttachService(int id, String name, double cost, int unit, String status,
-                         List<ContractDetail> contractDetailList) {
+    public AttachService(int id, String name, double cost, int unit, String status
+                        ) {
         this.id = id;
         this.name = name;
         this.cost = cost;
         this.unit = unit;
         this.status = status;
-        this.contractDetailList = contractDetailList;
+
     }
 
     public int getId() {
@@ -72,13 +70,6 @@ public class AttachService {
         this.status = status;
     }
 
-    public List<ContractDetail> getContractDetailList() {
-        return contractDetailList;
-    }
-
-    public void setContractDetailList(List<ContractDetail> contractDetailList) {
-        this.contractDetailList = contractDetailList;
-    }
 
     @Override
     public String toString() {
@@ -88,7 +79,6 @@ public class AttachService {
                 ", cost=" + cost +
                 ", unit=" + unit +
                 ", status='" + status + '\'' +
-                ", contractDetailList=" + contractDetailList +
                 '}';
     }
 }

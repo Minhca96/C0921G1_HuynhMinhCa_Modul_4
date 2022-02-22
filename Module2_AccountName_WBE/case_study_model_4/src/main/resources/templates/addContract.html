@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/layout :: head"></head>
+<body>
+<h3 style="text-align: center">Add Contract</h3>
+<p>
+    <a th:href="@{/furama}" >
+        Back to Service
+    </a>
+</p>
+<div id="form" style="margin-left: 340px">
+
+    <form th:action="@{/contract/addContract}" th:object="${contract}" method="post" novalidate="novalidate">
+        <input type="hidden" th:field="*{id}">
+        <label>CustomerId
+            <select th:field="*{customerId}">
+                <option th:each="customer : ${customerList}" th:value="${customer.id}" th:text="${customer.name}"></option>
+            </select>
+        </label><br>
+        <label>EmployeeId
+            <select th:field="*{employeeId}">
+                <option th:each="employee : ${employeeList}" th:value="${employee.id}" th:text="${employee.name}"></option>
+            </select>
+        </label><br>
+        <label>ServiceId
+            <select th:field="*{serviceId}">
+                <option th:each="service : ${serviceList}" th:value="${service.id}" th:text="${service.name}"></option>
+            </select>
+        </label><br>
+
+        <label>Start Date</label>
+        <input type="date" th:field="*{startDate}"><br>
+        <label>End Date</label>
+        <input type="date" th:field="*{endDate}"><br>
+        <label>Deposit</label>
+        <input type="text" th:field="*{deposit}">
+        <label>Total Money</label>
+        <input type="text" th:field="*{totalMoney}">
+        <input type="submit" value="save">
+
+    </form>
+</div>
+<footer th:replace="/layout :: footer"></footer>
+</body>
+</html>

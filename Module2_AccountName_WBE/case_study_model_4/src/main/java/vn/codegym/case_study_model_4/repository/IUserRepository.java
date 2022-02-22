@@ -6,4 +6,5 @@ import vn.codegym.case_study_model_4.model.User;
 
 @Repository
 public interface IUserRepository extends JpaRepository<User,Long> {
+    User findByUsername(String username);
 }

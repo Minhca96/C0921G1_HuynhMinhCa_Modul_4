@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 import vn.codegym.case_study_model_4.repository.IServiceRepository;
 import vn.codegym.case_study_model_4.service.IServiceService;
 
+import java.util.List;
+
 @Service
 public class ServiceService implements IServiceService {
     @Autowired
@@ -22,5 +24,10 @@ public class ServiceService implements IServiceService {
     @Override
     public void add(vn.codegym.case_study_model_4.model.Service service) {
         iServiceRepository.save(service);
+    }
+
+    @Override
+    public List<vn.codegym.case_study_model_4.model.Service> getAll() {
+        return iServiceRepository.findAll();
     }
 }

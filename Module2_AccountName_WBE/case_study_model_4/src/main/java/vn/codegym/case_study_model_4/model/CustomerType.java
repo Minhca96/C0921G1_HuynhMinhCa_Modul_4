@@ -49,12 +49,5 @@ public class CustomerType {
         this.customerList = customerList;
     }
 
-    @Override
-    public String toString() {
-        return "CustomerType{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", customerList=" + customerList +
-                '}';
-    }
+
 }

@@ -120,7 +120,7 @@
     <nav class="navbar">
         <div class="container-fluid">
             <form class="d-flex" action="/furama/customer">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                <input class="form-control me-2" type="search" placeholder="Search name" aria-label="Search"
                        name="key_search">
                 <button class="bg-success btn btn-outline-dark" type="submit">Search</button>
 
@@ -215,6 +215,7 @@
     <a th:href="@{'/furama/customer'(page=${customerList.number + 1}, key_search=${key_search},customerTypeId=${customerTypeId})}"
        th:if="${customerList.hasNext()}">Next</a>
 </div>
+
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

@@ -8,16 +8,13 @@ import vn.codegym.case_study_model_4.model.Customer;
 import vn.codegym.case_study_model_4.repository.ICustomerRepository;
 import vn.codegym.case_study_model_4.service.ICustomerService;
 
+import java.util.List;
+import java.util.Optional;
+
 @Service
 public class CustomerService implements ICustomerService {
     @Autowired
     private ICustomerRepository iCustomerRepository;
-
-//    @Override
-//    public Page<Customer> findAll(Pageable pageable) {
-//        return iCustomerRepository.findAll(pageable);
-//    }
-
     @Override
     public void remote(Long id) {
         iCustomerRepository.deleteById(id);
@@ -31,5 +28,20 @@ public class CustomerService implements ICustomerService {
     @Override
     public Page<Customer> find(String name, String typeId, Pageable pagle) {
         return iCustomerRepository.searchCustomer(name,typeId,pagle);
+    }
+
+    @Override
+    public List<Customer> getAll() {
+        return iCustomerRepository.findAll();
+    }
+
+    @Override
+    public Customer findId(Long id) {
+        return iCustomerRepository.getById(id);
+    }
+
+    @Override
+    public void edit(Customer customer) {
+        iCustomerRepository.save(customer);
     }
 }

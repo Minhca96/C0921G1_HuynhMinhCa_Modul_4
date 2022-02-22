@@ -4,13 +4,13 @@
 <body>
 <h3 style="text-align: center">Add Service</h3>
 <p>
-    <a th:href="@{/home}" >
+    <a th:href="@{/furama}" >
         Back to Service
     </a>
 </p>
 <div id="form" style="margin-left: 340px">
 
-    <form th:action="@{/service/addService}" th:object="${service}" method="post" novalidate="novalidate">
+    <form th:action="@{/service/addService}" th:object="${serviceDto}" method="post" novalidate="novalidate">
         <input type="hidden" th:field="*{id}">
         <label>Service Type
             <select th:field="*{serviceTypeId}">
@@ -28,16 +28,20 @@
         <input type="text" th:field="*{area}">
         <label>Cost</label>
         <input type="text" th:field="*{cost}">
+        <div th:if="${#fields.hasErrors('cost')}" th:errors="*{cost}" style="color: red"></div>
         <label>Max People</label>
         <input type="text" th:field="*{maxPeople}">
+        <div th:if="${#fields.hasErrors('maxPeople')}" th:errors="*{maxPeople}" style="color: red"></div>
         <label>Stand Room</label>
         <input type="text" th:field="*{standRoom}">
         <label>Description Other Conveniance</label>
         <input type="text" th:field="*{descriptionOtherConveniance}">
         <label>Pool Area</label>
         <input type="text" th:field="*{poolArea}">
+        <div th:if="${#fields.hasErrors('poolArea')}" th:errors="*{poolArea}" style="color: red"></div>
         <label>Number Of Floors</label>
         <input type="text" th:field="*{numberOfFloors}">
+        <div th:if="${#fields.hasErrors('numberOfFloors')}" th:errors="*{numberOfFloors}" style="color: red"></div>
         <input type="submit" value="save">
 
     </form>
